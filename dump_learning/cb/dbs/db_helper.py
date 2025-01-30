@@ -11,7 +11,7 @@ password = os.getenv("DB_PASSWORD")
 database = os.getenv("DB_NAME")
 
 def get_db_connection():
-    """Tworzy i zwraca połączenie do bazy danych."""
+    
     try:
         connection = mysql.connector.connect(
             host=host,
@@ -26,10 +26,10 @@ def get_db_connection():
         return None
 
 def fetch_all_records():
-    """Pobiera wszystkie rekordy z tabeli 'expenses' i wyświetla je."""
+    
     connection = get_db_connection()
     if connection is None:
-        return  # Jeśli nie udało się połączyć, zakończ działanie
+        return  
     
     try:
         with connection.cursor(dictionary=True) as cursor:
@@ -40,7 +40,24 @@ def fetch_all_records():
     except mysql.connector.Error as e:
         print(f"Error executing query: {e}")
     finally:
-        connection.close()  # Zamykamy połączenie
+        connection.close()  
+        
+def fetch_expenses_for_date(expenses_date):
+    connection = get_db_connection()
+    if connection is None:
+        return  
+    
+    try:
+        with connection.cursor(dictionary=True) as cursor:
+            cursor.execute("SELECT * FROM expenses WHERE expense_date = %s", (expenses_date,))
+            expenses = cursor.fetchall()
+            for expense in expenses:
+                print(expense)
+    except mysql.connector.Error as e:
+        print(f"Error executing query: {e}")
+    finally:
+        connection.close()
 
 if __name__ == "__main__":
-    fetch_all_records()
+    #fetch_all_records()
+    fetch_expenses_for_date("2024-08-01")
