@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Desktop/dump_learning/dump_learning/ML/spaceship_titanic/mlruns/698296092531061030/8f1dc04397414b7ebea8ce305626b068/artifacts
+end_time: 1749537964477
+entry_point_name: ''
+experiment_id: '698296092531061030'
+lifecycle_stage: active
+run_id: 8f1dc04397414b7ebea8ce305626b068
+run_name: XGBClassifier
+run_uuid: 8f1dc04397414b7ebea8ce305626b068
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749537960280
+status: 3
+tags: []
+user_id: USER

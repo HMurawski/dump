@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Desktop/dump_learning/dump_learning/ML/spaceship_titanic/mlruns/698296092531061030/10180ba9a525418b87fa2cbfa23eafee/artifacts
+end_time: 1749537960247
+entry_point_name: ''
+experiment_id: '698296092531061030'
+lifecycle_stage: active
+run_id: 10180ba9a525418b87fa2cbfa23eafee
+run_name: Random Forest
+run_uuid: 10180ba9a525418b87fa2cbfa23eafee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749537956583
+status: 3
+tags: []
+user_id: USER

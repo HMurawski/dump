@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Desktop/dump_learning/dump_learning/ML/spaceship_titanic/mlruns/698296092531061030/6ae8301794a54d128b777211fdfe3aaa/artifacts
+end_time: 1749537909886
+entry_point_name: ''
+experiment_id: '698296092531061030'
+lifecycle_stage: active
+run_id: 6ae8301794a54d128b777211fdfe3aaa
+run_name: Logistic Regression
+run_uuid: 6ae8301794a54d128b777211fdfe3aaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749537907760
+status: 4
+tags: []
+user_id: USER
