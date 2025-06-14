@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/USER/Desktop/dump_learning/dump_learning/ML/spaceship_titanic/mlruns/698296092531061030/e517a6da9bbd4c1f8f489c3a8235c97e/artifacts
+deleted_time: 1749706582555
 end_time: 1749537933925
 entry_point_name: ''
 experiment_id: '698296092531061030'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e517a6da9bbd4c1f8f489c3a8235c97e
 run_name: Logistic Regression
 run_uuid: e517a6da9bbd4c1f8f489c3a8235c97e
